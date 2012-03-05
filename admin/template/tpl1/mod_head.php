@@ -1,0 +1,1 @@
+<link rel="stylesheet" href="<?php echo ADMIN_TPL_SRC?>css/style.css">

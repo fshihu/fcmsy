@@ -1,0 +1,87 @@
+/**
+ * Created by 2kid.
+ * User: onwer
+ * Date: 11-12-13
+ * Time: 下午10:34
+ */
+/* reset
+-------------------------------------------------------------- */
+html, body, blockquote, dd, dl, fieldset, legend,figure,
+h1, h2, h3, h4, h5, h6, hr, ol, p, pre, ul, th, td, form, input, textarea, button {
+    margin: 0;
+    padding: 0;
+}
+fieldset, iframe, img { border: 0; }
+address, cite, code, em, ins, kbd, pre, samp, strong, sub, sup, var {
+    font-family: inherit;
+    font-style: normal;
+}
+h1, h2, h3, h4, h5, h6, sub, sup {
+    font-size: 100%;
+    font-weight: normal;
+}
+input, button, textarea, select { *font-size: 100%; }
+input, button, textarea, select, optgroup, option { font: inherit; }
+ol, ul { list-style: none; }
+q:before, q:after { content: ''; }
+table { border-collapse: collapse; border-spacing: 0; }
+/*html5
+-------------------------------------------------------------- */
+header,footer,nav,section,article,figure,figcaption{display:block;}
+
+/*base
+-------------------------------------------------------------- */
+
+body { font-size: 12px; font-family: "\5B8B\4F53", Arial, Helvetica, sans-serif; line-height: 1.5; color: #555555;
+     }
+h1 { font-size: 2.2em; }
+h2 { font-size: 2.0em; }
+h3 { font-size: 1.8em; }
+h4 { font-size: 1.6em; }
+h5 { font-size: 1.4em; }
+h6 { font-size: 1.2em; }
+a:link, a:visited { color: #424242; text-decoration: none; }
+a:hover, a:active { text-decoration: underline; outline: 0; }
+input:focus, textarea { outline: 0; }
+input { vertical-align: middle; }
+textarea { overflow-y: hidden; }
+.clearfix:after {
+    clear: both;
+    content: " ";
+    display: block;
+    font-size: 0;
+    height: 0;
+    visibility: hidden;
+}
+.clearfix { *zoom: 1; }
+
+/*all
+-------------------------------------------------------------- */
+
+/*layout
+-------------------------------------------------------------- */
+
+/**----------------------------prinav */
+.prinavw{ border-right: 3px solid #6d79ff;  width: 200px; float: left;;}
+.prinav ul{padding-left: 20px;}
+
+/**----------------------------login */
+.pricont{margin-left: 210px;  }
+
+/*header
+-------------------------------------------------------------- */
+.header{background: #cde; box-shadow: 0 2px 1px #2de;}
+
+/*main
+-------------------------------------------------------------- */
+dd{padding-left: 15px;}
+
+/**----------------------------login */
+.login{ width: 400px;margin: auto;}
+
+/**----------------------------home */
+
+
+
+/*footer
+-------------------------------------------------------------- */
